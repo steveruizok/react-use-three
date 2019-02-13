@@ -1,0 +1,41 @@
+{
+	"name": "react-use-three",
+	"version": "1.0.0",
+	"description": "React hooks for three.js",
+	"main": "index.js",
+	"files": [
+		"lib/**/*"
+	],
+	"scripts": {
+		"test": "test",
+		"build": "tsc",
+		"prepare": "npm run build",
+		"version": "git add -A src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/steveruizok/react-use-three.git"
+	},
+	"keywords": [
+		"react",
+		"hooks",
+		"three"
+	],
+	"author": "Steve Ruiz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/steveruizok/react-use-three/issues"
+	},
+	"homepage": "https://github.com/steveruizok/react-use-three#readme",
+	"devDependencies": {
+		"typescript": "^3.3.3"
+	},
+	"dependencies": {
+		"@types/react": "^16.8.2",
+		"@types/react-dom": "^16.8.0",
+		"@types/three": "^0.93.20",
+		"react": "^16.8.1",
+		"react-dom": "^16.8.1",
+		"three": "^0.101.1"
+	}
+}
